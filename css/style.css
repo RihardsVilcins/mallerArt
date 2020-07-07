@@ -1,0 +1,58 @@
+body, h1,h2,h3,h4,h5,h6 {
+	font-family: "Montserrat", sans-serif
+}
+.w3-row-padding img {
+	margin-bottom: 12px
+}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+	width: 120px;background: #222;
+}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+	margin-left: 120px
+}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+	#main {margin-left: 0}
+}
+ 
+ /* https://freefrontend.com/css-text-effects/ */
+ 
+ header{
+	background: url('http://www.blackandwhitephoto.com.au/wp-content/uploads/2017/01/blackandwhiteadelaide-1180x610.jpg');
+ } 
+
+ header h1{
+ 	padding-top: 170px;
+ 	padding-bottom: 100px;
+ 	font-family:Times New Roman;
+ 	color: black;
+ }
+
+  header p{
+  	padding-bottom: 100px;
+	font-family:Times New Roman;
+ 	color: black;
+ 	font-size: 20px;
+  }
+
+.error {
+    width: 100%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 2px solid red;
+    color: red;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.succes {
+    width: 100%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 2px solid yellow;
+    color: yellow;
+    border-radius: 5px;
+    text-align: left;
+}
